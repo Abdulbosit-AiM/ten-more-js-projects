@@ -1,4 +1,5 @@
 const btn = document.getElementById('btn')
+const container = document.getElementById('container')
 
 btn.addEventListener('click', () => {
     createNotification()
@@ -9,5 +10,10 @@ function createNotification() {
 
     notif.classList.add('toast')
 
-    
+    container.appendChild(notif)
+
+    setTimeout(() => {
+        notif.remove()
+    }, 3000)
+
 }
