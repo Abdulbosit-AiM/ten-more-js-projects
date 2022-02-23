@@ -14,12 +14,13 @@ body {
     justify-content: center;
 }
 button {
-    background-color: peru;
+    background-color: #BCC6CC;
     color: #fff;
     font-family: inherit;
     padding: 1rem;
     border-radius: 5px;
     border: none;
+    text-transform: uppercase;
 }
 #container{
     position: fixed;
@@ -28,7 +29,7 @@ button {
 }
 
 .toast {
-    background-color: peru;
+    background-color: #F17B89;
     border-radius: 5px;
     color: #fff;
     padding: 2rem;
