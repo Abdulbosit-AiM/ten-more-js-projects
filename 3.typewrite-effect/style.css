@@ -8,5 +8,14 @@
 body {
     margin: 0;
     height: 100vh;
+    
     font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: indianred;
+    color: white;
 }
