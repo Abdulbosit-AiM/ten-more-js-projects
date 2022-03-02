@@ -1,23 +1,6 @@
-/* 
-- Roboto
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+/* 
 font-family: 'Roboto', sans-serif; 
-
-- Poppins
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
-font-family: 'Poppins', sans-serif;
-
-- Inter
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
-font-family: 'Inter', sans-serif;
-
-- Montserrat
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
-font-family: 'Montserrat', sans-serif;
-
-- Rubik 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
-font-family: 'Rubik', sans-serif;
 */
 
 * {
@@ -29,6 +12,7 @@ body {
     height: 100vh;
 
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif; 
 }
