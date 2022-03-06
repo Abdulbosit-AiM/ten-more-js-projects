@@ -1,11 +1,4 @@
-const sounds = [
-    'applause',
-    'boo',
-    'gasp',
-    'tada',
-    'victory',
-    'wrong'
-]
+const sounds = ['applause','boo', 'gasp', 'tada', 'victory', 'wrong']
 
 sounds.forEach((sound) => {
     const btn = document.createElement('button')
@@ -16,7 +9,7 @@ sounds.forEach((sound) => {
     btn.addEventListener('click', () => {
         stopSongs()
         
-        document.getElementById(sound).play
+        document.getElementById(sound).play()
     })
 
     document.body.appendChild(btn)
