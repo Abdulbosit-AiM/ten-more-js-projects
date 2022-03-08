@@ -16,3 +16,16 @@ body {
     justify-content: center;
     font-family: 'Rubik', sans-serif;
 }
+
+.container {
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+    height: 500px;
+    width: 500px;
+}
+
+img {
+    transform-origin: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
