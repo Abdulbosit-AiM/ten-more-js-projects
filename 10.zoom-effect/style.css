@@ -25,7 +25,7 @@ body {
 }
 
 img {
-    transform-origin: center;
+    transform-origin: center center;
     object-fit: cover;
     height: 100%;
     width: 100%;
