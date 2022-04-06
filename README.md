@@ -10,3 +10,7 @@
 ## 8. Carousel
 ## 9. Soundboard
 ## 10. Zoom Effect
+
+- title icons
+[Project icons created by Flaticon](https://www.flaticon.com/free-icons)
+[Project icons by Icons8](https://icons8.com/)
